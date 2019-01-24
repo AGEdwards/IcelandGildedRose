@@ -6,7 +6,6 @@ namespace GildedRose
 {
     public class InventoryManager
     {
-        // Will pass in these methods to enable testing
         private readonly Func<List<string>> GetInput;
 
         public InventoryManager()
